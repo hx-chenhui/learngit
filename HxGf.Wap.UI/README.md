@@ -1,6 +1,6 @@
 # QQDY-H5-API
 
-> A Vue.js project
+> 初次上传到git
 
 ## Build Setup
 
