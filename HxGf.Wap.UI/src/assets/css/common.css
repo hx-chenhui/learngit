@@ -1,0 +1,695 @@
+/* 公共样式 */
+.fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  body {
+    background-color: #fff;
+  }
+/*------------------- 公共顶部样式---------------<start>------------ */
+
+.header {
+    width: 100%;
+  }
+  
+  .downLoad {
+    width: 100%;
+    height: 90px;
+    background-color: #929292;
+    font-size: 28px;
+    line-height: 90px;
+    color: #fff;
+  }
+  .downLoad i {
+    margin-left: 30px;
+  }
+  .downLoad img {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  .downLoad p {
+    display: inline;
+    font-weight: 500;
+  }
+  .downLoad a {
+    float: right;
+    width: 182px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    background-color: #7252e4;
+  }
+/*------------------- 公共顶部样式---------------<end>------------ */
+
+
+
+/*------------------- news页面样式---------------<start>------------ */
+  .contents {
+    padding: 0 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .contents h2 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .longList {
+    margin-top: 30px;
+    width: 100%;
+    height: 48px;
+    line-height: 40px;
+  }
+  .info img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+  .userName {
+    font-size: 24px;
+    color: #6b6b6b;
+  }
+  .time,
+  .comment {
+    font-size: 24px;
+    color: #6b6b6b;
+    text-align: right;
+  }
+  .time {
+    margin-right: 30px;
+  }
+  .longNews {
+    width: 100%;
+    font-size: 28px;
+    color: #626262;
+  }
+  .longNews img {
+    width: 100%;
+  }
+  
+  .readLink {
+    width: 100%;
+    color: #959595;
+    margin: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+  }
+  .read,
+  .link {
+    font-size: 24px;
+    margin-left: 15px;
+    color: #959595;
+    line-height: 20px;
+    vertical-align: middle;
+  }
+  .read {
+    border-right: 2px solid #959595;
+    padding-right: 30px;
+    box-sizing: border-box;
+    margin-right: 30px;
+  }
+  .div_imgbox .oneimg {
+    width: 100%;
+  }
+  
+  .div_imgbox .twoimg {
+    width: 49%;
+    margin-bottom: 1%;
+  }
+  .div_imgbox .twoimg:nth-child(odd) {
+    margin-right: 2%;
+  }
+  .div_imgbox .threeimg {
+    width: 32%;
+    margin: 0 0.5%;
+  }
+/*------------------- news页面样式---------------<end>------------ */
+  
+
+/*------------------- video页面样式---------------<start>------------ */
+  
+  .videoContent {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+  .videoContent h2 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .videoText {
+    font-size: 28px;
+    color: #626262;
+  }
+  .videoTop {
+    margin: 10px 0;
+    font-size: 32px;
+    color: #3c3c3c;
+  }
+  .watch {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #9d9d9d;
+  }
+  .author {
+    width: 100%;
+    height: 80px;
+    line-height: 70px;
+    background: #ebebeb;
+    box-sizing: border-box;
+    padding-left: 40px;
+  }
+  .authorHead {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .authorHead img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .authorName {
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  .gzAuthor {
+    display: block;
+    width: 150px;
+    height: 50px;
+    font-size: 28px;
+    background-color: #7252e4;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .prism-big-play-btn{
+    left:40%!important;
+    bottom: 40%!important;
+  }
+  .prism-player .prism-cover{
+    background-repeat: no-repeat;
+  }
+/*------------------- video页面样式---------------<end>------------ */
+
+/*------------------- answer页面样式---------------<start>------------ */
+  .msgTitle {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .msgContents {
+    color: #444;
+    font-size: 24px;
+    padding: 0 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .msgContents h2 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .msgHead {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+/*------------------- answer页面样式---------------<end>------------ */
+
+
+/*------------------- prod页面样式---------------<start>------------ */
+.prodBox {
+    margin-bottom: 120px;
+    box-sizing: border-box;
+  }
+  .shopContent {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  .shopNav {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    font-size: 30px;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .shopNav a {
+    margin-right: 68px;
+    color: #595959;
+  }
+  .shopNav .active {
+    border-bottom: 5px solid #7252e4;
+    color: #7252e4;
+    padding-bottom: 8px;
+  }
+  .navIfon {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .shopNav .el-icon-arrow-left {
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    color: #595959;
+  }
+  .shopNav .el-icon-more {
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    color: #595959;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    margin-top: 10px;
+  }
+  .carousel img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel .carImg {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel .custom-indicator {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 80px;
+    height: 40px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+  }
+  .shopMessage {
+    font-size: 28px;
+    color: #3c3c3c;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .leftText {
+    color: #8f8e8e;
+    margin-right: 30px;
+  }
+  .print span {
+    color: #8f8e8e;
+  }
+  .van-goods-action {
+    height: 120px;
+  }
+  .newslist_one .van-goods-action-mini-btn,
+  .newslist_one .van-goods-action-mini-btn__icon {
+    font-size: 30px;
+    color: #3c3c3c;
+  }
+  .van-goods-action .van-goods-action-mini-btn,
+  .van-goods-action .van-button {
+    height: 100%;
+  }
+  .van-button .van-button__text {
+    font-size: 30px;
+  }
+  .newslist_one .van-button--warning {
+    background-color: #8e74e8;
+    border: none;
+  }
+  .newslist_one .van-button--danger {
+    background-color: #7252e4;
+    border: none;
+  }
+  .container_top {
+    font-size: 28px;
+  }
+  .shopCost {
+    margin: 20px 0;
+    color: red;
+  }
+  .shopCost .mony {
+    font-size: 36px;
+  }
+  .shopCost .shopCost_sc {
+    font-size: 36px;
+    color: #8f8e8e;
+  }
+  .arrow_right {
+    font-weight: 900;
+    font-size: 36px;
+  }
+  .shopBrief > p {
+    font-size: 28px;
+    color: #575757;
+    font-weight: 500;
+  }
+  .colour {
+    margin-right: 15px;
+  }
+  .userBox {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .outPrit {
+    margin-top: 10px;
+    color: #8f8e8e;
+  }
+  .first_sp {
+    margin-right: 30px;
+    color: #8f8e8e;
+  }
+  .xuanzhe {
+    margin: 10px 0;
+  }
+  .container {
+    font-size: 28px;
+    padding: 10px 0;
+    background-color: #fff;
+  }
+  .evaluate {
+    margin-top: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .evaluate a {
+    color: #8e74e8;
+  }
+  .evaluate span {
+    margin-left: 10px;
+  }
+  .container_user img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+  }
+  .container_user span {
+    font-size: 24px;
+    color: #929292;
+  }
+  .container_conten {
+    font-size: 24px;
+    color: #3c3c3c;
+  }
+  .shopName {
+    font-size: 28px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  .container_writ {
+    border: none;
+    border: 1px solid #e6e6e6;
+  }
+  .shopImg {
+    width: 60px;
+    height: 62px;
+    margin-top: 3%;
+    margin-right: 20px;
+  }
+  .shopImg img {
+    width: 100%;
+    height: 100%;
+  }
+  .shopSgin p {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    color: #575757;
+    line-height: 30px;
+  }
+  .shopSgin {
+    margin-top: 4%;
+  }
+  .experience {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .allBaby {
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: #7252e4;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 4%;
+  }
+  .div_imgbox img{
+    max-height: 380px;
+  }
+  .div_imgbox .oneimg {
+    width: 100%;
+  }
+  
+  .div_imgbox .twoimg {
+    width: 49%;
+    margin-bottom: 1%;
+  }
+  .div_imgbox .twoimg:nth-child(odd) {
+    margin-right: 2%;
+  }
+  .div_imgbox .threeimg {
+    width: 32%;
+    margin: 0 0.5%;
+  }
+  /* 字体图标 */
+  @font-face {
+    font-family: "my-icon";
+    src: url("../font/iconfont.ttf") format("truetype");
+  }
+  
+  .my-icon {
+    font-family: "my-icon";
+  }
+  .fonts {
+    font-size: 30px;
+  }
+  .my-icon-extra::before {
+    content: "\e64e";
+  }
+  
+  /* 双伪元素 */
+  .clearfix:before,
+  .clearfix:after {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+  }
+  .clearfix {
+    *zoom: 1;
+  }
+  
+  .van-goods-action-mini-btn__icon {
+    font-size: 40px!important;
+    color: #000;
+  }
+  .experience .van-goods-action-mini-btn__icon {
+    font-size: 20px!important;
+    color: red;
+    
+  }
+  .experience .van-goods-action-mini-btn.van-hairline {
+    display: inline;
+    background-color: transparent;
+  }
+/*------------------- prod页面样式---------------<end>------------ */
+   
+
+/*------------------- download页面样式---------------<start>------------ */
+
+.downBox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.downBox .imgBgc {
+    width: 100%;
+    height: 100%;
+}
+.downBox a {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 450px;
+    height: 90px;
+    background-color: #fff;
+    line-height: 90px;
+    text-align: center;
+    color: #f86b03;
+    border-radius: 45px;
+    font-size: 40px;
+}
+.downBox .downText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 1001;
+}
+.downText h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 36px;
+  position: absolute;
+  top: 270px;
+  left: 20%;
+}
+.downText .jiantou {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 300px;
+  height: 300px;
+}
+/*------------------- download页面样式---------------<end>------------ */
+
+
+/*------------------- answer页面样式---------------<start>------------ */
+
+.answer_contents {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.contents {
+  padding: 0 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+.longContent h2 {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.reply {
+    font-size: 22px;
+    color: #666;
+    border-bottom: 1px solid #666;
+}
+.longList {
+  margin-top: 30px;
+  width: 100%;
+  height: 48px;
+  line-height: 40px;
+}
+.info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.userName {
+  font-size: 24px;
+  color: #6b6b6b;
+}
+.time,
+.comment {
+  font-size: 24px;
+  color: #6b6b6b;
+  text-align: right;
+  margin-right: 20px;
+}
+.time {
+  margin-right: 30px;
+}
+.longNews {
+  width: 100%;
+  font-size: 28px;
+  color: #626262;
+  /* margin-top: 70px; */
+}
+.longNews img {
+  width: 100%;
+}
+
+.readLink {
+  width: 100%;
+  color: #959595;
+  margin: 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+.read,
+.link {
+  font-size: 24px;
+  margin-left: 15px;
+  color: #959595;
+  line-height: 20px;
+  vertical-align: center;
+}
+.read {
+  border-right: 2px solid #959595;
+  padding-right: 30px;
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+.div_imgbox .oneimg{
+  width: 100%;
+}
+
+.div_imgbox .twoimg{
+  width: 49%;
+  margin-bottom: 1%;
+}
+.div_imgbox .twoimg:nth-child(odd){
+  margin-right: 2%;  
+}
+.div_imgbox .threeimg{
+  width: 32%;
+  margin:0 0.5%;
+}
+
+/*------------------- answer页面样式---------------<end>------------ */
+
+
+/*------------------- agreements页面样式---------------<start>------------ */
+.agreeBox {
+    padding: 30px;
+}
+/*------------------- agreements页面样式---------------<end>------------ */
+
+.answerBox {
+  width: 100%;
+}
